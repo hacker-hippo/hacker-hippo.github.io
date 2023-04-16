@@ -19,6 +19,29 @@
         <button type="submit">Submit</button>
     </form>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js"></script>
+
+    <!-- Add the Firebase Realtime Database SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-database.js"></script>
+
+    <!-- Add the Firebase config object -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyDY6wdUvL50VGw4B7FfDVIDITSfQWOgBeM",
+        authDomain: "githubpages-21eff.firebaseapp.com",
+        projectId: "githubpages-21eff",
+        storageBucket: "githubpages-21eff.appspot.com",
+        messagingSenderId: "1056284598072",
+        appId: "1:1056284598072:web:79673a81805cd181056bcd",
+        measurementId: "G-VLBD0L9SBW"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const dbRef = firebase.database().ref();
+    </script>
+
     <script src="script.js"></script>
 </body>
 </html>
