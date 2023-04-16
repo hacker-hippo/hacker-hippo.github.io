@@ -1,4 +1,4 @@
-const correctPassPhrase = 'yourpassphrase';
+const correctPassPhrase = 'rylee';
 
 function checkPassPhrase() {
   const inputText = document.getElementById('input-text').value;
